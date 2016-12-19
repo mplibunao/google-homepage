@@ -1,0 +1,94 @@
+/* Top Bar */
+
+body
+{
+	font-family: arial, sans-serif;
+  	font-size: 13px;
+}
+
+.content
+{
+
+}
+
+.navbar
+{
+	
+	display: inline-block;
+	width: 100%;
+}
+
+.nav
+{
+	list-style-type: none;
+	padding-left: 30px;
+	padding-right: 30px;
+	float: right;
+}
+
+.buttons{
+	display:inline-block;
+	vertical-align: middle;
+}
+
+#gmail{
+	
+}
+
+#img{
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+#apps{
+
+}
+
+#login{
+	
+	margin-left: 15px;
+	padding: 0 12px;
+	border: 1px solid #4387fd;
+	border-radius: 2px;
+	background-color: #4387fd;
+	line-height: 28px;
+	font-weight: bold;
+}
+
+#login:hover{
+	box-shadow: 0px 1px 0px rgba(0,0,0,.15);
+}
+
+#login a{
+	color:#fff;
+}
+
+a{
+	text-decoration: none;
+	color:black;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+/*
+
+li a
+{
+	padding:8px;
+}
+*/
+
+/* Content */
+
+#logo
+{
+	height:100px;
+	position:relative;
+}
+
+
+
+
+/* Footer */
