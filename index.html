@@ -2,12 +2,13 @@
 <html>
 <head>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Google</title>
 	<link href="styles/style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 
-	<div class="content">
+	
 		<div class="navbar">
 			<ul class="nav">		
 				<li class="buttons" id="gmail"><a href="#">Gmail</a></li>
@@ -20,16 +21,43 @@
 			</ul>
 		</div>
 
-		<div name="logo">
+		<div id="logo">
 			<center>
-				<img src="images/googlelogo.png" alt="Google"/>
+				<div id="mainlogo">
+					<img src="images/googlelogo.png" alt="Google"/>
+					<div id="sublogo">Philippines</div>
+				</div>
 			</center>
+			
 		</div>
 
-		<center>
-			<input name="searchtext" type="text"/>
-		</center>
-	</div>
+
+		<div id="search">
+			<div id="searchbox" class="search-box">
+				<div id="searchbar">
+					<input name="searchtext" type="text"/>
+				</div>
+				<div id="voice" class="search-box">
+					<a id="voice-search" href="#">
+						<span id="span-voice"></span>
+					</a>
+				</div>	
+			</div>
+		</div>
+
+		<div class="footer">
+			<span class="left-side">
+				<a href="#" id="">Advertising</a>
+				<a href="#" id="">Business</a>
+				<a href="#" id="">About</a>
+			</span>
+			<span class="right-side">
+				<a href="#" id="">Privacy</a>
+				<a href="#" id="">Terms</a>
+				<a href="#" id="">Settings</a>
+			</span>
+		</div>
+	
 
 </body>
 </html>
