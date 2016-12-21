@@ -34,20 +34,22 @@
 
 
 		<div id="search">
-			<div id="searchbox" class="search-box">
-				<div id="searchbar">
-					<input name="searchtext" type="text"/>
+			<form action="#" method="GET" name="search">
+				<div id="searchbox" class="search-box">
+					<div id="searchbar">
+						<input name="searchtext" type="text"/>
+					</div>
+					<div id="voice" class="search-box">
+						<a id="voice-search" href="#">
+							<span id="span-voice"></span>
+						</a>
+					</div>	
 				</div>
-				<div id="voice" class="search-box">
-					<a id="voice-search" href="#">
-						<span id="span-voice"></span>
-					</a>
-				</div>	
-			</div>
-			<div class="button-area">
-				<input name="search-buttons" value="Google Search" type="submit"/>
-				<input name="search-buttons" value="I'm Feeling Lucky" type="submit"/>
-			</div>
+				<div class="button-area">
+					<input name="search-buttons" value="Google Search" type="submit"/>
+					<input name="search-buttons" value="I'm Feeling Lucky" type="submit"/>
+				</div>
+			</form>
 		</div>
 	
 
