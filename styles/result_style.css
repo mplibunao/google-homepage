@@ -7,6 +7,11 @@ body
 	color: #777;
 }
 
+a
+{
+	text-decoration: none;
+}
+
 /* Top Nav Bar */
 
 .nav
@@ -189,4 +194,107 @@ input[name=searchtext]
 	float: right;
 }
 
-/* Content *?
+/* Content */
+
+.content
+{
+	margin-left: 150px;
+	margin-bottom: 85px;
+	width: 100%;
+}
+
+.content-resultinfo
+{
+	width: 229px;
+	line-height: 43px;
+	padding-left: 16px;
+	padding-right: 8px;
+}
+
+#content-searchresults
+{
+	width: 600px;
+	margin: 9px 16px 0 16px;
+}
+
+.content-results
+{
+	display:block;
+	margin-bottom: 26px;
+}
+
+.content-results-link
+{
+	font-size: 18px;
+	font-weight: normal;
+	margin: 0;
+	line-height: 1.2;
+}
+
+.content-results-link a
+{
+	color: #1a0dab;
+}
+
+.content-results-path
+{
+	font-size: 14px;
+	color:#006621;
+	font-style: normal;
+	display: inline;
+	vertical-align: middle;
+}
+
+.content-results-text
+{
+	font-size: 13px;
+	color: #545454;
+	line-height: 1.4;
+}
+
+em
+{
+	color: #6a6a6a;
+	font-weight: bold;
+	font-style: normal;
+}
+
+.content-results-path-actionmenu
+{
+	display: inline-block;
+	background: url('../images/action_menu_alpha.png') no-repeat 0 0;
+	width: 13px;
+	height: 9px;
+	background-size: 8px 6px;
+	margin-left: 3px;
+}
+
+.content-results-linksbelow
+{
+	line-height: 18px;
+}
+
+.content-results-linksbelow a
+{
+	color:#1a0dab;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
