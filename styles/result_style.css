@@ -19,7 +19,7 @@ body
 	left: 0px;
 }
 
-.nav-searchbar
+.search
 {
 	display:inline-block;
 	vertical-align: top;
@@ -188,3 +188,5 @@ input[name=searchtext]
 {
 	float: right;
 }
+
+/* Content *?
