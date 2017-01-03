@@ -245,6 +245,16 @@ input[name=searchtext]
 	vertical-align: middle;
 }
 
+.content-results-path-actionmenu
+{
+	display: inline-block;
+	background: url('../images/action_menu_alpha.png') no-repeat 0 0;
+	width: 13px;
+	height: 9px;
+	background-size: 8px 6px;
+	margin-left: 3px;
+}
+
 .content-results-text
 {
 	font-size: 13px;
@@ -259,14 +269,9 @@ em
 	font-style: normal;
 }
 
-.content-results-path-actionmenu
+.content-results-text-date
 {
-	display: inline-block;
-	background: url('../images/action_menu_alpha.png') no-repeat 0 0;
-	width: 13px;
-	height: 9px;
-	background-size: 8px 6px;
-	margin-left: 3px;
+	color:#808080;
 }
 
 .content-results-linksbelow
